@@ -1,0 +1,54 @@
+2021-02-02 10:46:31,950 WARN  [SoapUI] Missing folder [C:\Users\Sanskriti\Documents\SDET\Soap Project1\Webservice\ext] for external libraries
+2021-02-02 10:46:32,270 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Sanskriti\soapui-settings.xml]
+2021-02-02 10:46:34,771 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Sanskriti/Documents/SDET/Soap%20Project1/Webservice/WebserviceTesting-Project-soapui-project.xml]
+2021-02-02 10:46:35,405 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [WebserviceTesting Project]
+2021-02-02 10:46:35,407 INFO  [SoapUITestCaseRunner] Running Project [WebserviceTesting Project], runType = SEQUENTIAL
+2021-02-02 10:46:35,440 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC01_End To End flow using Property  and property transfer]
+2021-02-02 10:46:35,453 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-02-02 10:46:35,498 INFO  [SoapUITestCaseRunner] running step [Property Transfer for Customer details]
+2021-02-02 10:46:35,743 INFO  [SoapUITestCaseRunner] running step [Create Customer]
+2021-02-02 10:46:38,695 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-02 10:46:38,696 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status UNKNOWN
+2021-02-02 10:46:38,697 INFO  [SoapUITestCaseRunner] running step [GetList]
+2021-02-02 10:46:53,560 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-02 10:46:53,562 INFO  [SoapUITestCaseRunner] running step [Property Transfer for Id]
+2021-02-02 10:46:53,573 INFO  [SoapUITestCaseRunner] running step [GetById]
+2021-02-02 10:46:54,459 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-02 10:46:54,460 INFO  [SoapUITestCaseRunner] running step [Property Transfer for Id to delete]
+2021-02-02 10:46:54,463 INFO  [SoapUITestCaseRunner] running step [DeletebyId]
+2021-02-02 10:46:55,260 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-02 10:46:55,263 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC01_End To End flow using Property  and property transfer], time taken: 19774ms, status: FINISHED
+2021-02-02 10:46:55,265 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC02_End to End flow using Property and Property Expansion]
+2021-02-02 10:46:55,266 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-02-02 10:46:55,268 INFO  [SoapUITestCaseRunner] running step [Create Customer]
+2021-02-02 10:46:58,837 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-02 10:46:58,837 INFO  [SoapUITestCaseRunner] running step [GetList]
+2021-02-02 10:47:07,601 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-02 10:47:07,603 INFO  [SoapUITestCaseRunner] running step [GetById]
+2021-02-02 10:47:08,511 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-02 10:47:08,511 INFO  [SoapUITestCaseRunner] running step [DeletebyId]
+2021-02-02 10:47:09,882 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-02 10:47:09,883 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC02_End to End flow using Property and Property Expansion], time taken: 14603ms, status: FINISHED
+2021-02-02 10:47:09,884 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC03_End To End Flow using  Groovy Script]
+2021-02-02 10:47:09,885 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-02-02 10:47:09,886 INFO  [SoapUITestCaseRunner] running step [Create Customer]
+2021-02-02 10:47:12,024 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-02 10:47:12,033 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion for Customer id] has status VALID
+2021-02-02 10:47:12,035 INFO  [SoapUITestCaseRunner] running step [GetList]
+2021-02-02 10:47:19,990 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-02 10:47:19,991 INFO  [SoapUITestCaseRunner] running step [GetById]
+2021-02-02 10:47:20,920 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-02 10:47:20,922 INFO  [SoapUITestCaseRunner] running step [DeleteById]
+2021-02-02 10:47:22,223 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-02 10:47:22,223 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC03_End To End Flow using  Groovy Script], time taken: 12313ms, status: FINISHED
+2021-02-02 10:47:22,225 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC04_End To End Flow using Property and Groovy Script]
+2021-02-02 10:47:22,226 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-02-02 10:47:22,227 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2021-02-02 10:47:22,298 INFO  [log] sans105@gmail.com
+2021-02-02 10:47:22,300 INFO  [log] Pizza
+2021-02-02 10:47:22,305 INFO  [log] Sinha
+2021-02-02 10:47:22,318 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC03_End To End Flow using  Groovy Script]
+2021-02-02 10:47:22,318 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC04_End To End Flow using Property and Groovy Script], time taken: 90ms, status: FINISHED
+2021-02-02 10:47:22,319 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-02-02 10:47:22,321 INFO  [SoapUITestCaseRunner] Project [WebserviceTesting Project] finished with status [FINISHED] in 46908ms
+2021-02-02 10:47:22,322 INFO  [SoapUITestCaseRunner] running step [Create Customer]
